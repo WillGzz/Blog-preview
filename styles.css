@@ -30,6 +30,7 @@ p {
         position: relative;
         top: 5px;
         font-size: 0.75rem; 
+        font-weight: 100;
     }
 
 h1{
@@ -117,8 +118,7 @@ h1:hover{
     
       #greg{
         position: relative;
-        bottom: 12px;
-        left: 4px;
+      left: 4px;
         font-size: 0.75rem;
     }
 
