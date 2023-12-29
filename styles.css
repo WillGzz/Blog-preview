@@ -13,10 +13,8 @@
     height: 400px;
     width: 19%;
     border: solid 2px hsl(0, 0%, 7%);
-    border-right: solid 9px;
-    border-bottom: solid 9px;
     padding-left: 20px;
-    
+    box-shadow:  6px 6px hsl(0, 0%, 7%);
    
 }
 
