@@ -1,7 +1,7 @@
 #body {
     background-color: hsl(47, 88%, 63%);
     font-size: 16px;
-
+    font-family: 'Figtree', serif;
 }
 
 .container {
@@ -10,44 +10,48 @@
     background-color: hsl(0, 0%, 100%);
     margin: auto;
     border-radius: 15px;
-    height: 400px;
+    height: 398px;
     width: 19%;
     border: solid 2px hsl(0, 0%, 7%);
-    padding-left: 20px;
-    box-shadow:  6px 6px hsl(0, 0%, 7%);
-   
+    padding-left: 18px;
+    box-shadow: 6px 6px hsl(0, 0%, 7%);
+    overflow: auto;
 }
 
 p {
     color: hsl(0, 0%, 50%);
-    font-size: 0.90rem;
-   
+    font-size: 0.79rem;
+
 }
 
- h3{
-        position: relative;
-        top: 5px;
-        font-size: 0.75rem; 
-        font-weight: 100;
-    }
+h3 {
+    position: relative;
+    top: 5px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
 
-h1{
-font-size: 1.20rem;
+h1 {
+    position: relative;
+    top: 3px;
+    font-size: 1.20rem;
+
 }
 
 #illustration {
     position: relative;
     top: 10px;
-    width: 95%;
+    width: 94%;
     display: block;
 }
 
-#greg{
+#greg {
     position: relative;
     bottom: 2px;
     left: 3px;
     font-size: 0.70rem;
 }
+
 #image-avatar {
     position: relative;
     top: 10px;
@@ -58,27 +62,29 @@ font-size: 1.20rem;
 #imgage-avatar,
 #greg {
     display: inline-block;
-   
-}
-button{
- position: relative;
-top: 4px;
-color: hsl(0, 0%, 7%);
-background-color: hsl(47, 88%, 63%); 
-border: none;
-padding: 5px;
-font-weight: 800;
-font-size: 10px;
-border-radius: 5px;
 
 }
 
-button, #greg, h1{
-    font-weight: 700;
+button {
+    position: relative;
+    top: 4px;
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 5px;
+
+}
+
+button,
+#greg,
+h1 {
     color: hsl(0, 0%, 7%);
+    font-weight: 800;
 
 }
-h1:hover{
+
+h1:hover {
     color: hsl(47, 88%, 63%);
     cursor: pointer;
 
@@ -89,7 +95,7 @@ h1:hover{
     margin-top: 150px;
     font-size: 11px;
     text-align: center;
-    
+
 }
 
 .attribution a {
@@ -97,38 +103,39 @@ h1:hover{
     text-decoration: none;
 }
 
-@media (max-width: 376px){
+@media (max-width: 376px) {
 
-  
+
     .container {
         height: 400px;
         width: 83%;
-       padding-left: 25px;
-        
-       
+        padding-left: 25px;
+
+
     }
 
-   
+
     #illustration {
-      width: 89%;
-       border-radius: 8px;
+        width: 95%;
+        border-radius: 8px;
     }
-    
-      #greg{
+
+    #greg {
         position: relative;
-      left: 4px;
+        left: 4px;
         font-size: 0.75rem;
     }
 
-    
+
 }
 
-@media (min-width: 376px) and (max-width: 700px){
-    .container{
-        height: 420px;
-        width: 50%; /* Adjust the width for medium-sized screens */
-        overflow: auto;
+@media (min-width: 376px) and (max-width: 700px) {
+    .container {
+        height: 400px;
+        width: 40%;
+        /* Adjust the width for medium-sized screens */
+        
     }
+
     /* Add more styles for elements on medium-sized screens here */
 }
-
